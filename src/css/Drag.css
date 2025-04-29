@@ -1,0 +1,74 @@
+.your-class li {
+    transition: all 0.2s ease;
+}
+
+.your-class li:active {
+    background-color: #e0e0e0;
+    transform: scale(0.98);
+}
+
+.dragging {
+    background-color: #f0f8ff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    transform: scale(1.02);
+    transition: all 0.2s ease;
+}
+
+/* Tasks.css */
+
+.task-list {
+    min-height: 50px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .task-list:hover {
+    background-color: #eaeaea;
+  }
+  
+  .task-card {
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .task-content {
+    flex-grow: 1;
+    font-size: 14px;
+    color: #333;
+    padding-right: 10px;
+  }
+  
+  .task-actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    margin-left: 4px;
+    transition: opacity 0.2s ease;
+  }
+  
+  .task-actions button:hover {
+    opacity: 0.7;
+  }
+  
+  .task-actions img {
+    width: 18px;
+    height: 18px;
+  }
+  

@@ -1,0 +1,57 @@
+/* .dark-mode{
+    color: white;
+    color: #1d2125;
+    color: #2d2f33;
+    color: #333;
+    color: #050505;
+    color: aliceblue;
+    color: #444444;
+    color: #9fadbc29;
+    color: #05050500;
+    color: #a4a1a1;
+    color: #6b6b6b;
+    color: #6c6c6c;
+    color: #bbced8;
+    
+} */
+
+.dark-mode {
+    background-color: #1d2125; 
+    color: white; 
+}
+
+
+
+.light-theme {
+    background-color: white; 
+    color: black; 
+    transition: background-color 0.3s ease, color 0.3s ease; /* Плавный переход между темами */
+    font-family: 'Arial', sans-serif; /* Шрифт для всего контента */
+}
+
+.light-theme .header {
+    background-color: #0055ff; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.light-theme .main {
+    background-color: rgb(255, 252, 252); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.light-theme .sidebar {
+    background-color: #0050f0; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+
+.buttonswitch{
+    margin-left: auto;
+    margin-right: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    gap:10px;
+}
+
+
+
