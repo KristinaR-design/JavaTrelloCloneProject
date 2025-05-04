@@ -1,0 +1,190 @@
+.sidebar {
+    width: 280px;
+    background-color: #050505;
+    color: white;
+    /* padding: 10px; */
+    /* border: 1px solid rgb(223, 219, 223); */
+    transition: width 0.3s ease-in-out; /* Плавное сворачивание */
+}
+
+.sidebar.collapsed {
+    width: 50px; /* Минимальная ширина при свертывании */
+    padding: 10px 5px; /* Уменьшенные отступы */
+    overflow: hidden; /* Скрытие контента */
+}
+
+.button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: aliceblue;
+    margin-top: 7px;
+}
+
+.button:hover {
+    background-color: #444444;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button-left {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: aliceblue;
+    margin-top: 7px;
+    margin-left: 10px; /* Отступ слева от текста */
+}
+
+.button-left:hover {
+    background-color: #444444;
+}
+
+.button-left:focus {
+    outline: none;
+}
+
+.workspace {
+    padding: 1px; 
+    display: flex; 
+    align-items: center; /* Выравнивание по центру */
+    justify-content: space-between; /* Распределение элементов */
+    border-bottom: 1px solid #9fadbc29;
+}
+
+.flex {
+    display: flex;
+    align-items: center; /* Выравнивание по вертикали */
+    gap: 8px; /* Расстояние между текстом и кнопкой */
+}
+
+.custom-box {
+   
+    width: 1.6rem;
+    height: 1.5rem; /* Задаем фиксированную высоту */
+    margin-right: 0.8rem;
+    background-color: #ff2323;
+    border-radius: 10px;
+}
+
+
+
+.custom-container {
+
+    background-color: #05050500;
+    color: #ffffff;
+    border-color: #05050500;
+    position: relative;
+    left: -40px;
+    width: 100%;
+    height: 50%;     
+    font-size: large; 
+    display: flex;      
+    justify-content: flex-start; 
+    align-items: center; 
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.custom-container:hover{
+    background-color: #444444;
+}
+
+.your-class {
+    list-style: none;
+}
+
+.newDesk{
+    background-color: #a4a1a1;
+    color: black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    position: relative;
+}
+
+.newColor{
+    width: 100%;
+    height: 40px;
+    border-color: transparent;
+    border-radius: 3px;
+    background-color: #6b6b6b;
+}
+
+.newTitle{
+    width: 96%;
+    height: 30px;
+    background-color: #6b6b6b;
+    border-color: transparent;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+}
+
+/* new one */
+
+.tasks-container {
+    margin-top: 10px;
+    position: relative;
+}
+
+.newDiv{
+    color:  rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.newButton{
+    background-color: #646464;
+    color: white;
+    border-color: transparent;
+    border-radius: 10px;
+    width: 100%;
+    height: 25px;
+    margin-top: 20px;
+}
+
+.x__button{
+    position: relative;
+    float: right;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+.x__button:hover {
+    background-color: #6c6c6c;
+}
+
+.delete-button {
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: medium;
+    cursor: pointer;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+.delete-button:hover{
+    background-color: #444444;
+}
+
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 10px;
+    padding: 5px;
+}
+
+
