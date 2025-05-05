@@ -5,31 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e43f635-269b-4419-939f-0ecae0db9053" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/board-service/src/main/java/org/example/boardservice/BoardServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/board-service/src/main/java/org/example/boardservice/Client/UserClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/board-service/src/main/java/org/example/boardservice/Controllers/BoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/board-service/src/main/java/org/example/boardservice/Entity/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/board-service/src/main/java/org/example/boardservice/Repository/BoardRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/board-service/src/main/java/org/example/boardservice/Services/BoardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/board-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/column-service/src/main/java/org/example/columnservice/ColumnController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/column-service/src/main/java/org/example/columnservice/ColumnRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/column-service/src/main/java/org/example/columnservice/ColumnService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/column-service/src/main/java/org/example/columnservice/ColumnServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/column-service/src/main/java/org/example/columnservice/Columns.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/column-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/org/example/taskservice/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/org/example/taskservice/TaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/org/example/taskservice/TaskRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/org/example/taskservice/TaskService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-service/src/main/java/org/example/taskservice/TaskServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trello/Trello/src/main/java/org/example/trello/Controllers/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Trello/Trello/src/main/java/org/example/trello/Controllers/BoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/org/example/apigateway/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trello_front/node_modules/.vite/deps/@hello-pangea_dnd.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Trello_front/node_modules/.vite/deps/@hello-pangea_dnd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trello_front/node_modules/.vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Trello_front/node_modules/.vite/deps/_metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/classes/org/example/eurekaserver/EurekaServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/target/classes/org/example/eurekaserver/EurekaServerApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -62,6 +57,7 @@
     "Spring Boot.BoardServiceApplication.executor": "Run",
     "Spring Boot.ColumnServiceApplication.executor": "Run",
     "Spring Boot.EurekaServerApplication.executor": "Run",
+    "Spring Boot.TaskServiceApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Celestial/Desktop/Trello_project/JavaTrelloCloneProject/Trello_micro/task-service/src",
@@ -84,6 +80,12 @@
       <recent name="C:\Users\Celestial\Desktop\Trello_project\JavaTrelloCloneProject\Trello_micro\column-service\src" />
       <recent name="C:\Users\Celestial\Desktop\Trello_project\JavaTrelloCloneProject\Trello_micro\board-service\src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.taskservice" />
+      <recent name="org.example.eurekaserver" />
+      <recent name="org.example.columnservice" />
+      <recent name="org.example.boardservice" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -95,7 +97,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ColumnServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="api-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.apigateway.ApiGatewayApplication" />
@@ -155,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1746444849411</updated>
-      <workItem from="1746444850379" duration="2922000" />
+      <workItem from="1746444850379" duration="6527000" />
     </task>
     <servers />
   </component>
