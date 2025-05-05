@@ -17,6 +17,7 @@ import java.util.Map;
 @RequiredArgsConstructor
 public class BoardController {
     private final BoardService boardService;
+
     @GetMapping("/{userId}")
     public List<Board> getBoardsByUser(@PathVariable Long userId){
         return boardService.getBoardsByUser(userId);

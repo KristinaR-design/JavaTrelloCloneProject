@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api-gateway" />
+        <module name="board-service" />
+        <module name="task-service" />
+        <module name="eureka-server" />
+        <module name="Trello_micro" />
+        <module name="column-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway" options="-parameters" />
+      <module name="board-service" options="-parameters" />
+      <module name="column-service" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="task-service" options="-parameters" />
+    </option>
+  </component>
+</project>
