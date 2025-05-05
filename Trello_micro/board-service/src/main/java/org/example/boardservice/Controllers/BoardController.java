@@ -4,13 +4,16 @@ import lombok.RequiredArgsConstructor;
 
 //import org.springframework.security.core.Authentication;
 //import org.springframework.security.core.context.SecurityContextHolder;
+import org.example.boardservice.BoardFeign;
 import org.example.boardservice.Entity.Board;
 import org.example.boardservice.Services.BoardService;
 
+import org.example.boardservice.TasksDTO;
 import org.springframework.http.ResponseEntity;
 
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -20,7 +23,17 @@ import java.util.Map;
 @RequiredArgsConstructor
 public class BoardController {
     private final BoardService boardService;
+    private final BoardFeign feign;
 
+    @GetMapping("/completedTasks/{userId}")
+    public List<TasksDTO> getCompletedTasks(@PathVariable Long userId){
+        List<TasksDTO> tasks = new ArrayList<TasksDTO>();
+        List<Board> boards = boardService.getBoardsByUser(userId);
+        for(int i = 0; i<boards.size(); i++){
+            tasks.addAll(feign.getCompletedTasks(boards.get(i).getId()));
+        }
+        return tasks;
+    }
 
     @GetMapping("/{userId}")
     public List<Board> getBoardsByUser(@PathVariable Long userId){

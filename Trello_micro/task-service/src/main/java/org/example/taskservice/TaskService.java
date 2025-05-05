@@ -21,4 +21,6 @@ public class TaskService {
     public Task getTask(Long taskId){return taskRepository.findById(taskId).get();}
 
     public List<Task> getTasks(){return taskRepository.findAll();}
+
+    public List<Task> findByCompletedAndColumnId(Long columnId){return taskRepository.findByCompletedAndColumnId(true, columnId);}
 }

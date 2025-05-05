@@ -8,6 +8,7 @@ import editImg from "../assets/change.png";
 import { useDispatch, useSelector } from "react-redux";
 import { addBoard, deleteBoard, setBoards, editBoards, reorderBoards } from "../store/actions/boardActions";
 import { DragDropContext, Droppable, Draggable } from "@hello-pangea/dnd";
+import CompletedTasks from "./CompletedTasks";
 
 const Span = styled.span`
     width: 1.6rem;
@@ -220,6 +221,7 @@ const Sidebar = ({ setActiveBoard }) => {
                     </DragDropContext>
                 </div>
             )}
+            <CompletedTasks />
         </div>
     );
 };

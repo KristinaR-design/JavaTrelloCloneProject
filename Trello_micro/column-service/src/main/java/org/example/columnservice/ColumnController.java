@@ -2,6 +2,8 @@ package org.example.columnservice;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.ArrayList;
 import java.util.List;
 //import org.springframework.security.core.Authentication;
 //import org.springframework.security.core.context.SecurityContextHolder;
@@ -12,6 +14,17 @@ import java.util.List;
 @RequiredArgsConstructor
 public class ColumnController {
     private final ColumnService columnService;
+    private final ColumnFeign feign;
+
+    @GetMapping("/completedTasks/{boardId}")
+    public List<TasksDTO> getCompletedTasks(@PathVariable Long boardId){
+        List<TasksDTO> tasks = new ArrayList<TasksDTO>();
+        List<Columns> columns = columnService.getColumnsByBoard(boardId);
+        for(int i = 0; i<columns.size(); i++){
+            tasks.addAll(feign.getCompletedTaskByColumn(columns.get(i).getId()));
+        }
+        return tasks;
+    }
 
     @GetMapping("/{boardId}")
     public List<Columns> getColumnByBoard(@PathVariable Long boardId){

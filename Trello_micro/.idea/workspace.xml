@@ -5,14 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e43f635-269b-4419-939f-0ecae0db9053" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/org/example/apigateway/CorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trello_front/node_modules/.vite/deps/@hello-pangea_dnd.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Trello_front/node_modules/.vite/deps/@hello-pangea_dnd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Trello_front/node_modules/.vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Trello_front/node_modules/.vite/deps/_metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/board-service/src/main/java/org/example/boardservice/BoardFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/board-service/src/main/java/org/example/boardservice/TasksDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/column-service/src/main/java/org/example/columnservice/ColumnFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/column-service/src/main/java/org/example/columnservice/TasksDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-service/src/main/java/org/example/loginservice/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-service/src/main/java/org/example/loginservice/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-service/src/main/java/org/example/loginservice/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-service/src/main/java/org/example/loginservice/UserCastomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-service/src/main/java/org/example/loginservice/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login-service/src/main/java/org/example/loginservice/UsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trello/Trello/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Trello/Trello/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trello/Trello/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Trello/Trello/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trello/Trello/src/main/java/org/example/trello/Entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Trello/Trello/src/main/java/org/example/trello/Entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trello_front/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Trello_front/src/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/target/classes/org/example/eurekaserver/EurekaServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/target/classes/org/example/eurekaserver/EurekaServerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/src/main/java/org/example/boardservice/Controllers/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/board-service/src/main/java/org/example/boardservice/Controllers/BoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/board-service/target/classes/org/example/boardservice/Controllers/BoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/board-service/target/classes/org/example/boardservice/Controllers/BoardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/column-service/src/main/java/org/example/columnservice/ColumnController.java" beforeDir="false" afterPath="$PROJECT_DIR$/column-service/src/main/java/org/example/columnservice/ColumnController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/column-service/target/classes/org/example/columnservice/ColumnController.class" beforeDir="false" afterPath="$PROJECT_DIR$/column-service/target/classes/org/example/columnservice/ColumnController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/src/main/java/org/example/taskservice/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/org/example/taskservice/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/src/main/java/org/example/taskservice/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/org/example/taskservice/TaskRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/src/main/java/org/example/taskservice/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/java/org/example/taskservice/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/target/classes/org/example/taskservice/TaskController.class" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/target/classes/org/example/taskservice/TaskController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/target/classes/org/example/taskservice/TaskRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/target/classes/org/example/taskservice/TaskRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-service/target/classes/org/example/taskservice/TaskService.class" beforeDir="false" afterPath="$PROJECT_DIR$/task-service/target/classes/org/example/taskservice/TaskService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +53,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2wfuFWGwzbnJ52i0Wafbn4IvaWX" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -57,10 +81,12 @@
     "Spring Boot.BoardServiceApplication.executor": "Run",
     "Spring Boot.ColumnServiceApplication.executor": "Run",
     "Spring Boot.EurekaServerApplication.executor": "Run",
+    "Spring Boot.LoginServiceApplication.executor": "Run",
     "Spring Boot.TaskServiceApplication.executor": "Run",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Celestial/Desktop/Trello_project/JavaTrelloCloneProject/Trello_micro/task-service/src",
+    "last_opened_file_path": "C:/Users/Celestial/Desktop/Trello_project/JavaTrelloCloneProject/Trello_micro",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -76,11 +102,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Celestial\Desktop\Trello_project\JavaTrelloCloneProject\Trello_micro\login-service\src\main\java\org\example\loginservice" />
       <recent name="C:\Users\Celestial\Desktop\Trello_project\JavaTrelloCloneProject\Trello_micro\task-service\src" />
       <recent name="C:\Users\Celestial\Desktop\Trello_project\JavaTrelloCloneProject\Trello_micro\column-service\src" />
       <recent name="C:\Users\Celestial\Desktop\Trello_project\JavaTrelloCloneProject\Trello_micro\board-service\src" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example.loginservice" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.loginservice" />
       <recent name="org.example.taskservice" />
       <recent name="org.example.eurekaserver" />
       <recent name="org.example.columnservice" />
@@ -97,7 +128,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.TaskServiceApplication">
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="api-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.apigateway.ApiGatewayApplication" />
@@ -126,6 +157,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="login-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.loginservice.LoginServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TaskServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="task-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.taskservice.TaskServiceApplication" />
@@ -137,6 +175,7 @@
       <item itemvalue="Spring Boot.ApiGatewayApplication" />
       <item itemvalue="Spring Boot.BoardServiceApplication" />
       <item itemvalue="Spring Boot.ColumnServiceApplication" />
+      <item itemvalue="Spring Boot.LoginServiceApplication" />
       <item itemvalue="Spring Boot.TaskServiceApplication" />
       <item itemvalue="Spring Boot.EurekaServerApplication" />
     </list>
@@ -157,7 +196,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1746444849411</updated>
-      <workItem from="1746444850379" duration="6527000" />
+      <workItem from="1746444850379" duration="13595000" />
+      <workItem from="1746466640011" duration="1780000" />
+      <workItem from="1746468583555" duration="2116000" />
     </task>
     <servers />
   </component>

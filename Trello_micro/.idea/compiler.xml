@@ -7,11 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="api-gateway" />
+        <module name="login-service" />
         <module name="board-service" />
+        <module name="Trello_micro" />
+        <module name="api-gateway" />
         <module name="task-service" />
         <module name="eureka-server" />
-        <module name="Trello_micro" />
         <module name="column-service" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="board-service" options="-parameters" />
       <module name="column-service" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="login-service" options="-parameters" />
       <module name="task-service" options="-parameters" />
     </option>
   </component>

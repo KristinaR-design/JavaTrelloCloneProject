@@ -19,6 +19,11 @@ public class TaskController {
         return taskService.getTasks();
     }
 
+    @GetMapping("/completed/{columnId}")
+    public List<Task> getCompletedTaskByColumn(@PathVariable Long columnId){
+        return taskService.findByCompletedAndColumnId(columnId);
+    }
+
     @PostMapping
     public ResponseEntity<Task> addTask(@RequestBody Task task){
 //        Authentication auth = SecurityContextHolder.getContext().getAuthentication();

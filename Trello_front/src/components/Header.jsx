@@ -3,6 +3,8 @@ import '../css/Header.css';
 import '../css/Theme.css'
 import { useTheme } from "./ThemeProvider";
 
+
+
 const Header = () => {
     const { isDarkMod, toggleTheme } = useTheme(); 
     
@@ -26,10 +28,9 @@ const Header = () => {
                 <button  onClick={() => logOut()}   className="LogOut">Log out </button>
 
             </div>
-
-           
-
+            
         </div>
+        
     );
 }
 
